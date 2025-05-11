@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+body {
+  @apply bg-gray-100;
+}
+
+h1 {
+  @apply text-2xl font-bold;
+}
+
+/* If you want to set a global background color, move it outside of the h1 block */
+body {
+  background-color: #111827;
+}
